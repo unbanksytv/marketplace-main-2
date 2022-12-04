@@ -86,7 +86,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
       </Head>
       <Image
         alt='Cover'
-        src='/coverberamarketdemo.jpg'
+        src='/coverberamarketdemo.jpeg'
         width="100%" 
         height="100%" 
         layout="responsive" 
