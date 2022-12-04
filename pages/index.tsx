@@ -10,7 +10,6 @@ import { useMediaQuery } from '@react-hookz/web'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import offerSourceLogo from './coverberamarketdemo.jpg'
 
 // Environment variables
 // For more information about these variables
