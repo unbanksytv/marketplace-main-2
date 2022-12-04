@@ -89,8 +89,6 @@ const Home: NextPage<Props> = ({ fallback }) => {
         src='/coverberamarketdemo.jpeg'
         width="100vh" 
         height="100vh" 
-        layout="responsive" 
-        objectFit="contain"
       />
       <header className="col-span-full mb-12 mt-[66px] px-4 md:mt-40 lg:px-0">
         <h1 className="reservoir-h1 text-center dark:text-white">{tagline}</h1>
