@@ -85,6 +85,12 @@ const Home: NextPage<Props> = ({ fallback }) => {
         {description}
         {image}
       </Head>
+      <Image
+          src="coverberamarketdemo.jpeg"
+          alt="Picture of the author"
+          width={3000}
+          height={2000}
+         />
       <header className="col-span-full mb-12 mt-[66px] px-4 md:mt-40 lg:px-0">
         <h1 className="reservoir-h1 text-center dark:text-white">{tagline}</h1>
       </header>
@@ -95,12 +101,6 @@ const Home: NextPage<Props> = ({ fallback }) => {
           </div>
           {!isSmallDevice && <SortTrendingCollections />}
         </div>
-        <Image
-          src="coverberamarketdemo.jpeg"
-          alt="Picture of the author"
-          width={500}
-          height={500}
-         />
         <TrendingCollectionTable fallback={fallback} />
       </div>
       <Footer />
