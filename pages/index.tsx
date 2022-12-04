@@ -85,14 +85,14 @@ const Home: NextPage<Props> = ({ fallback }) => {
         {description}
         {image}
       </Head>
-      <div style={{width: '100%', height: '100%', position: 'relative'}}>
       <Image
         alt='Cover'
         src='/coverberamarketdemo.jpg'
-        layout='fill'
-        objectFit='contain'
+        width="100%" 
+        height="100%" 
+        layout="responsive" 
+        objectFit="contain"
       />
-      </div>
       <header className="col-span-full mb-12 mt-[66px] px-4 md:mt-40 lg:px-0">
         <h1 className="reservoir-h1 text-center dark:text-white">{tagline}</h1>
       </header>
