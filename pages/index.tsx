@@ -10,7 +10,6 @@ import { useMediaQuery } from '@react-hookz/web'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
-import img from "../coverberamarketdemo.jpeg"
 
 // Environment variables
 // For more information about these variables
@@ -39,7 +38,7 @@ const metadata = {
     <meta name="description" content={description} />
   ),
   tagline: (tagline: string | undefined) => (
-    <>{tagline || 'Discover, buy and sell NFTs'}</>
+    <>{tagline || 'LFG Sweep Floors Ser'}</>
   ),
   image: (image?: string) => {
     if (image) {
@@ -87,7 +86,6 @@ const Home: NextPage<Props> = ({ fallback }) => {
       </Head>
       <header className="col-span-full mb-12 mt-[66px] px-4 md:mt-40 lg:px-0">
         <h1 className="reservoir-h1 text-center dark:text-white">{tagline}</h1>
-        <Image src={img} alt="sweep floors" /> 
       </header>
       <div className="col-span-full px-6 md:px-16">
         <div className="mb-9 flex w-full items-center justify-between">
