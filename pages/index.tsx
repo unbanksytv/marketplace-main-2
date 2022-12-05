@@ -90,7 +90,7 @@ const Home: NextPage<Props> = ({ fallback }) => {
       <div className="col-span-full px-6 md:px-16">
         <div className="mb-9 flex w-full items-center justify-between">
           <div className="reservoir-h4 dark:text-white">
-            Bera Collections
+            Wen Ooga Booga TBH
           </div>
           {!isSmallDevice && <SortTrendingCollections />}
         </div>
